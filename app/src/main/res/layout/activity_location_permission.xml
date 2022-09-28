@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary1"
+    tools:context=".activity.LocationPermissionActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_plot_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_marginRight="@dimen/dp20"
+        android:layout_marginBottom="@dimen/dp20"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/dp10"
+        app:cardBackgroundColor="@color/colorWhite"
+        app:cardCornerRadius="@dimen/dp8">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/rl_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp24"
+                android:layout_marginTop="@dimen/dp35">
+
+                <ImageView
+                    android:id="@+id/iv_location"
+                    android:layout_width="@dimen/dp40"
+                    android:layout_height="@dimen/dp40"
+                    android:src="@drawable/ic_location_icon"
+                    android:contentDescription="@string/image_description"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp8"
+                    android:layout_marginEnd="@dimen/dp14"
+                    android:layout_toEndOf="@+id/iv_location"
+                    android:textStyle="bold"
+                    android:text="@string/please_allow_app_to_access_your_device_location"
+                    android:textColor="@color/dark_black"
+                    android:textSize="@dimen/sp20" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/iv_location_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dp28"
+                android:layout_marginBottom="@dimen/dp28"
+                android:contentDescription="@string/image_description"
+                android:src="@drawable/ic_location_phone" />
+
+            <TextView
+                android:id="@+id/tv_permission_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_location_phone"
+                android:layout_marginLeft="@dimen/dp57"
+                android:layout_marginTop="@dimen/dp12"
+                android:textSize="@dimen/sp14"
+                android:layout_marginRight="@dimen/dp57"
+                android:text="@string/this_permission_is_required" />
+
+
+            <RelativeLayout
+                android:id="@+id/rl_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_permission_description"
+                android:layout_marginTop="53dp"
+                android:paddingBottom="@dimen/dp17">
+
+                <TextView
+                    android:id="@+id/tv_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@+id/tv_allow"
+                    android:textStyle="bold"
+                    android:text="@string/cancel"
+                    android:textAllCaps="true"
+                    android:textSize="@dimen/sp14" />
+
+                <TextView
+                    android:id="@+id/tv_allow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="@dimen/dp27"
+                    android:layout_marginRight="@dimen/dp27"
+                    android:gravity="end"
+                    android:text="@string/allow"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorOrange"
+                    android:textSize="@dimen/sp14" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

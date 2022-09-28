@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "265620920244",
+    "project_id": "reversegeocoding-ad346",
+    "storage_bucket": "reversegeocoding-ad346.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265620920244:android:21394e676e8dc4d0c8c4e1",
+        "android_client_info": {
+          "package_name": "com.example.reversegeocodingpoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265620920244-m64gg06s9ak3pnloiuu5sv7u219jgis3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "xyz"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265620920244-m64gg06s9ak3pnloiuu5sv7u219jgis3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265620920244:android:70b2e29fbb823137c8c4e1",
+        "android_client_info": {
+          "package_name": "com.example.reversegeocodingpoc.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265620920244-m64gg06s9ak3pnloiuu5sv7u219jgis3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "xyz"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265620920244-m64gg06s9ak3pnloiuu5sv7u219jgis3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265620920244:android:929790ee8919b4d5c8c4e1",
+        "android_client_info": {
+          "package_name": "com.example.reversegeocodingpoc.sit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265620920244-m64gg06s9ak3pnloiuu5sv7u219jgis3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "xyz"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265620920244-m64gg06s9ak3pnloiuu5sv7u219jgis3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
